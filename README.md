@@ -7,14 +7,15 @@
 
 ## vps-link.js
 
-![vpslink](https://github.com/Billiam/pinbally-scripts/assets/242008/f085292e-3324-4aa7-a30b-cf528e6f3ef0)
+![game setup menu with the "Open Spreadsheet" currently selected](https://github.com/Billiam/pinbally-scripts/assets/242008/f085292e-3324-4aa7-a30b-cf528e6f3ef0)
 
 ## vpc-weekly.js
 
 Filter list:
 
-![PinballY_DJStajTwqz](https://github.com/Billiam/pinbally-scripts/assets/242008/2bd8b85b-379f-4e56-98f1-6af5927cc170)
+![Filter list with "Find VPC Weekly Tables" and "VPC Weekly Competition" menu items](https://github.com/Billiam/pinbally-scripts/assets/242008/2bd8b85b-379f-4e56-98f1-6af5927cc170)
 
 Spreadsheet list:
 
-![PinballY_1jS6w5kkCd](https://github.com/Billiam/pinbally-scripts/assets/242008/55b3a9b5-27ed-47cf-a9c3-a463b41022fa)
+![Menu with the current and previous weekly competition tables, showing the start date and table name](https://github.com/Billiam/pinbally-scripts/assets/242008/55b3a9b5-27ed-47cf-a9c3-a463b41022fa)
+
