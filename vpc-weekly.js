@@ -3,8 +3,7 @@ const weeklyData = {
   weeks: [],
   loading: false,
   lastCheck: 0,
-  lastWeekEnd: 0,
-  reloadTimer: null
+  lastWeekEnd: 0
 }
 const commandPool = new Map()
 
@@ -34,16 +33,6 @@ const filterId = gameList.createFilter({
   },
   before: () => {
     checkDataReload()
-    // next week
-    clearTimeout(weeklyData.reloadTimer)
-
-    if (weeklyData.lastWeekEnd) {
-      nextCompetition = weeklyData.lastWeekEnd + 30*1000 + Math.random() * 2*60*1000
-      weeklyData.reloadTimer = setTimeout(checkDataReload, nextCompetition - Date.now())
-    }
-  },
-  after: () => {
-    clearTimeout(weeklyData.reloadTimer)
   }
 })
 
